@@ -1,0 +1,307 @@
+body {
+  background-color: rgb(242, 242, 242);
+  min-width: 375px;
+  width: 100%;
+  font-family: "Plus Jakarta Sans";
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+.logo {
+  width: 48px;
+  height: 48px;
+}
+
+button {
+  background-color: black;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  color: rgb(255, 247, 240);
+  cursor: pointer;
+  padding: 8px 28px;
+  border-radius: 28px;
+  border-style: none;
+}
+
+button:hover {
+  background-color: #755cde;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 26px 16px 100px;
+}
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  text-align: center;
+  color: rgb(3, 3, 3);
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.four-boxes {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 24px;
+}
+.graphic-design {
+  height: 364px;
+  position: relative;
+  background: rgb(117, 92, 222);
+  border-radius: 8px;
+}
+.graphic-design > img {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.title {
+  position: absolute;
+  left: 24px;
+  bottom: 24px;
+}
+.three-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.two-boxes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.ui-ux,
+.apps {
+  width: 47%;
+  height: 182px;
+  position: relative;
+  background: rgb(246, 165, 96);
+  border-radius: 8px;
+}
+.ui-ux > img,
+.apps > img {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+a {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration-line: none;
+}
+.apps {
+  background: rgb(243, 158, 158);
+}
+
+.illustrations {
+  width: 100%;
+  height: 158px;
+  position: relative;
+  background: rgb(235, 117, 101);
+  border-radius: 8px;
+}
+.illustrations > img {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.green-other {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.photography,
+.graphics {
+  height: 182px;
+  position: relative;
+  background: rgb(97, 196, 183);
+  border-radius: 8px;
+}
+.photography > img,
+.graphics > img {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.graphics {
+  background: rgb(85, 32, 73);
+}
+.photography > img,
+.graphics > img {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.consultant {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 16px 100px;
+  gap: 40px;
+}
+.amy {
+  height: 300px;
+  width: 300px;
+}
+.amy > img {
+  height: 300px;
+  width: 300px;
+  object-fit: fill;
+}
+.about-amy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: center;
+  color: black;
+}
+.about-amy > p {
+  width: 100%;
+}
+
+.introduction > p,
+.without-button > p,
+.about-amy > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: center;
+  color: rgb(122, 116, 110);
+  margin-bottom: 32px;
+  width: 80%;
+}
+.about-amy > button {
+  background-color: rgb(235, 117, 101);
+}
+
+.about-amy > button:hover {
+  background-color: #f6a560;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: rgb(3, 3, 3);
+  margin-bottom: 17px;
+}
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+.wrapper .carousel {
+  white-space: nowrap;
+  cursor: pointer;
+}
+.carousel img:first-child {
+  margin-left: 0px;
+}
+
+.carousel img {
+  width: calc(33.3333% - 10px);
+  height: 200px;
+  object-fit: cover;
+  margin-left: 15px;
+  border-radius: 8px;
+}
+.arrows {
+  cursor: pointer;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+}
+
+.arrow {
+  height: 64px;
+  width: 64px;
+  background-color: rgb(3, 3, 3);
+  text-align: center;
+  line-height: 65px;
+  border-radius: 50%;
+}
+
+.arrow:hover {
+  background-color: #755cde;
+}
+
+.book-call {
+  min-width: 343px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(3, 3, 3);
+  box-sizing: border-box;
+  gap: 24px;
+  margin: 100px 16px 42px;
+  padding: 49px 24px 48px;
+  border-radius: 8px;
+}
+.without-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.without-button > h2,
+.without-button > p {
+  color: rgb(255, 247, 240);
+}
+
+.without-button > p {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.book-call > button {
+  background-color: rgb(235, 117, 101);
+}
+
+.book-call > button:hover {
+  background-color: #f6a560;
+}
