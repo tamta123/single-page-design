@@ -210,6 +210,9 @@ h2 {
   margin-bottom: 32px;
   width: 80%;
 }
+.about-amy > p {
+  width: 100%;
+}
 .about-amy > button {
   background-color: rgb(235, 117, 101);
 }
@@ -304,4 +307,183 @@ h3 {
 
 .book-call > button:hover {
   background-color: #f6a560;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    padding: 34px 40px 64px 39px;
+  }
+  main {
+    padding: 0px 39px 120px;
+  }
+  h1 {
+    font-size: 44px;
+    line-height: 55px;
+  }
+  .introduction > p {
+    width: 85%;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .boxes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .four-boxes {
+    flex-direction: row;
+  }
+  .three-boxes,
+  .graphic-design {
+    width: 48%;
+  }
+  .green-other {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .photography,
+  .graphics {
+    width: 48%;
+  }
+  .photography,
+  .graphics {
+    width: 48%;
+  }
+  .consultant {
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 120px;
+    margin-left: -40px;
+  }
+  .amy {
+    height: 364px;
+    width: 364px;
+  }
+  .amy > img {
+    height: 364px;
+    width: 364px;
+    object-fit: cover;
+  }
+  .about-amy {
+    width: 45%;
+    align-items: flex-start;
+    padding-right: 20px;
+    margin-left: 40px;
+  }
+  .about-amy > h2,
+  .about-amy > p {
+    text-align: left;
+  }
+  .about-amy > p {
+    margin-bottom: 0px;
+  }
+  h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .book-call {
+    margin: 120px 39px 60px;
+  }
+  .without-button > h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .without-button > p,
+  .about-amy > p {
+    font-size: 18px;
+    width: 96%;
+    line-height: 28px;
+  }
+  .logo {
+    width: 64px;
+    height: 64px;
+  }
+  button {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 14px 45px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  header {
+    padding: 34px 164px 66px 165px;
+  }
+  main {
+    padding: 0px 165px 156px;
+  }
+  h1 {
+    font-size: 56px;
+    line-height: 71px;
+  }
+  .introduction > p {
+    width: 65%;
+  }
+  .four-boxes {
+    flex-direction: row;
+    width: 63.6%;
+  }
+  .green-other {
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 33.3%;
+  }
+  .photography {
+    height: 158px;
+    width: 100%;
+  }
+  .graphics {
+    height: 182px;
+    width: 100%;
+  }
+  .consultant {
+    padding: 0px 165px 88px 195px;
+  }
+  .amy {
+    height: 445px;
+    width: 445px;
+    margin: 0px;
+  }
+  .amy > img {
+    height: 445px;
+    width: 445px;
+    object-fit: fill;
+  }
+  .about-amy {
+    width: 50%;
+    gap: 34px;
+  }
+  .about-amy > h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .about-amy > p {
+    width: 100%;
+  }
+  .carousel img {
+    height: 400px;
+  }
+
+  .book-call {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 88px 165px 0px;
+    padding: 81px 95px 80px 65px;
+  }
+  .without-button {
+    width: 52%;
+    align-items: flex-start;
+  }
+  .without-button > p,
+  .without-button > h2 {
+    text-align: left;
+  }
+  footer {
+    padding: 56px 164px 66px 165px;
+  }
 }
